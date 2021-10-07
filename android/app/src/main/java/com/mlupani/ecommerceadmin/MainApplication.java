@@ -1,4 +1,4 @@
-package com.ecommerceadmin;
+package com.mlupani.ecommerceadmin;
 
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
@@ -65,7 +65,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.ecommerceadmin.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.mlupani.ecommerceadmin.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

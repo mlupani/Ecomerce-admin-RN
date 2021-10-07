@@ -1,4 +1,4 @@
-package com.ecommerceadmin;
+package com.mlupani.ecommerceadmin;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
