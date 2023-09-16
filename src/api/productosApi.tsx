@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const baseURL = 'https://ecommerce-black-sigma.vercel.app/api';
+const baseURL = 'https://ecommerce-production-195b.up.railway.app/api';
 //const baseURL = 'http://192.168.0.8:8080/api';
 const productosAPI = axios.create({ baseURL });
 
